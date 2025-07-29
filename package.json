@@ -1,0 +1,23 @@
+{
+	"name": "devtinder_backend",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Tinder for developers",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/app.js",
+		"start": "node src/app.js"
+	},
+	"keywords": [
+		"Node",
+		"Express",
+		"MongoDB",
+		"REST",
+		"API"
+	],
+	"author": "Vaishnavi Phadake",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^5.1.0"
+	}
+}
